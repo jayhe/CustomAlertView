@@ -265,8 +265,8 @@ static NSString *HC_ALERT_CELL_ID = @"cellID";
     if (self.buttonAction)
     {
         self.buttonAction(sender.tag);
-        [self hide];
     }
+    [self hide];
 }
 
 #pragma mark - UICollectionViewDataSource
